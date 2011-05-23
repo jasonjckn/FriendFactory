@@ -1,0 +1,10 @@
+* FriendFactory
+FriendFactory is a Facebook App. It help's you meet your friend's friends.
+
+There's two parts:
+1) Rating:  You decide who you think should be friends.
+2) Discover:  You find out your ratings with potential friends.
+
+* Where to get it?
+
+http://apps.facebook.com/myfriendfactory/
