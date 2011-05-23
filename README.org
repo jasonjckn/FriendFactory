@@ -11,4 +11,4 @@ There's two parts:
 
 * Screenshot
 
-[[http
+[[https://github.com/jasonjckn/FriendFactory/raw/master/pic.png]]
