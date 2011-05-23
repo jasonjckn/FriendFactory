@@ -7,4 +7,4 @@ There's two parts:
 
 * Where to get it?
 
-http://apps.facebook.com/myfriendfactory/
+[[http://apps.facebook.com/myfriendfactory/][Facebook App]]
