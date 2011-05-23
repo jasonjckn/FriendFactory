@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+	<title>FriendFactory</title>
+	
+	<meta name="Description" content="Discovering friends made easy" />
+	<meta name="Keywords" content="friends, facebook, discover, match, compatibility" />
+	
+	<link rel="stylesheet" type="text/css" href="/static/styles/styles.css" />
+	<link rel="stylesheet" type="text/css" href="/static/styles/button.css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="/static/scripts/jquery.ratings.js"></script>
+	<script type="text/javascript" src="/static/scripts/jquery-textfill.js"></script>
+	<script type="text/javascript" src="/static/scripts/jquery.config.js"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+
+<div id="main">
+	<div id="header">
+		<img src="/static/images/logo.png" alt="FriendFactory logo"/>
+		<h1>FriendFactory</h1>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="menu">
+		<a href="/landing" class="rate">Rate</a>
+		<a href="/matches" class="discover active">Discover</a>
+		<div class="clear"></div>
+	</div>
+	<div id="content">
+		<span id="announcement">
+			<strong>3212</strong> new suggestions have been made on FriendFactory. Discover new friends now!
+		</span>
+	
+		<h2>See your compatibility rated by your friends.</h2>
+		
+		<div id='matches'><div class="progress"><img src="/static/images/progress.gif" /></div></div>
+	</div>
+	<div class="clear"></div>
+	<div id="footer"></div>
+</div>
+<div id='matches'></div>
+
+</body>
+</html>
+

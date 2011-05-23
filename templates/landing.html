@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+	<title>FriendFactory</title>
+	
+	<meta name="Description" content="Discovering friends made easy" />
+	<meta name="Keywords" content="friends, facebook, discover, match, compatibility" />
+	
+	<link rel="stylesheet" type="text/css" href="/static/styles/styles.css" />
+	<link rel="stylesheet" type="text/css" href="/static/styles/button.css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="/static/scripts/jquery.ratings.js"></script>
+	<script type="text/javascript" src="/static/scripts/jquery-textfill.js"></script>
+	<script type="text/javascript" src="/static/scripts/jquery.config.js"></script>
+</head>
+<body>
+	<div id="fb-root"></div>
+	<div id="main">
+		<div id="header">
+			<img src="/static/images/logo.png" alt="FriendFactory logo"/>
+			<h1>FriendFactory</h1>
+			<div class="clear"></div>
+		</div>
+		
+		<div id="menu">
+			<a href="/landing" class="rate active">Rate</a>
+			<a href="/matches" class="discover">Discover</a>
+			<div class="clear"></div>
+		</div>
+
+		<div id="content">
+			<span id="announcement">
+				<strong>3212</strong> new suggestions have been made on FriendFactory. Discover new friends now!
+			</span>
+			<div class="title">
+				<h2>What's the compatibility between <span class="name1"></span> and <span class="name2"></span>?</h2>
+			</div>
+			<div class="progress"><img src="/static/images/progress.gif" /></div>
+			
+			<div id="photos">
+			<div id="left">
+				
+				<div class="gloss">&nbsp;</div>
+				<img id="friend1"></img>
+				<div class="name first"><span class="name1"></span></div>
+			</div>
+			<img src="/static/images/question.png" class="question"/>
+			
+			<div id="right">
+				<div class="gloss">&nbsp;</div>
+				<img id="friend2"></img>
+				<div class="name second"><span class="name2"></span></div>
+			</div>
+			<div class="clear"></div>
+			</div>
+			<div id="rating">
+				<button class="skip" onClick='javascript:refresh_pair()'>Skip</button>
+				<div id="star"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>

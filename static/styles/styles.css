@@ -1,0 +1,272 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, em, img, q, s, small, strike, strong, sub,sup, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td{margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+ol, ul, li {list-style: none;}:focus {outline: 0;}table {border-collapse: collapse;border-spacing: 0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup {font-style:inherit;font-weight:inherit;}del,ins {text-decoration:none;}h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:400;}abbr,acronym {border:0;font-variant:normal;}legend {color:#000;}input,button,textarea,select,optgroup,option {font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select {font-size:100%;}
+
+body {background:url('../images/bg.jpg');color:#222;font-size:62.5%;font-family:arial,sans-serif;}
+a {text-decoration:none;}
+.clear {clear:both;}
+
+@font-face {
+    font-family: 'Journal';
+    src: url('font/journal-webfont.eot');
+    src: url('font/journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/journal-webfont.woff') format('woff'),
+         url('font/journal-webfont.ttf') format('truetype'),
+         url('font/journal-webfont.svg#JournalRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#main {
+	width:760px;
+}
+
+#header {
+	color:#fff;
+	background:#627aad;
+	width:760px;
+	height:36px;
+	margin-bottom:20px;
+}
+#header img {
+	margin:1px 0 0 10px;
+	float:left;
+}
+#header h1 {
+	margin:10px 0 0 8px;
+	text-indent:-9999px;
+	background:url('../images/friendfactory.png');
+	float:left;
+	width:135px;
+	height:19px;
+}
+
+#menu, #content {
+	float:left;
+}
+
+#menu {
+	font-size:1.2em;
+	margin:50px 30px 0 20px;
+	text-align:center;
+}
+
+.rate,.discover {
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding:50px 25px 10px 25px;
+}
+#menu a {
+	color:#627aad;
+	display:block;
+}
+
+#menu .active {
+	background-color:#cacaca;
+	color:#fff;
+	text-shadow:0 -1px 0 #929292;
+}
+
+#menu .rate {
+	background:url('../images/rate.png') 31px 10px no-repeat;
+}
+
+#menu .rate.active {
+	background:url('../images/rate_active.png') 31px 10px #cacaca no-repeat;
+}
+
+#menu .discover {
+	margin-top:10px;
+	background:url('../images/discover.png') 35px 10px no-repeat;
+}
+
+#menu .discover.active {
+	margin-top:10px;
+	background:url('../images/discover_active.png') 35px 14px #cacaca no-repeat;
+}
+
+#announcement {
+	font-size:1.2em;
+	color:#fff;
+	background:#a0afce;
+	text-shadow:0 1px 0 #536ca1;
+	padding:3px 6px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+
+h2 {
+	color:#555;
+	font-family:Journal,arial;
+	font-size:3.5em;
+	margin-top:20px;
+
+}
+
+.title {
+	width:610px;
+	height:50px;
+}
+
+#content .question {
+	float:left;
+	margin:90px 30px 0 30px;
+	display:none;
+}
+
+#left, #right {
+	margin-top:10px;
+	float:left;
+	display:none;
+}
+
+#left img, #right img, .profile img {
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border:2px solid #fff;
+	box-shadow:0 0 5px #ccc;
+	-webkit-box-shadow:0 0 5px #ccc;
+	-moz-box-shadow:0 0 5px #ccc;
+}
+
+#left img, #right img {
+	width:200px;
+}
+
+.progress {
+	position:absolute;
+	margin:20px 0 -10px 230px;
+}
+
+#photos {
+	min-height:220px;
+}
+
+#content .gloss {
+	position:absolute;
+	background:url('../images/gloss.png') no-repeat;
+	width:200px;
+	height:93px;
+}
+
+#content .name {
+	margin-top:-3px;
+	color:#555;
+	font-size:2.5em;
+	font-family:Journal,arial;
+	width:120px;
+	height:56px;
+	text-align:center;
+}
+
+#content .name.first {
+	margin-left:5px;
+	background:url('../images/postit_left.png') no-repeat;
+}
+
+#content .name.second {
+	margin-left:77px;
+	background:url('../images/postit_right.png') no-repeat;
+}
+
+#content .first span {
+	padding:10px 7px 0 7px;
+	-webkit-transform: rotate(-4deg); 
+	-moz-transform: rotate(-4deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=356);
+}
+
+#content .second span {
+	padding:10px 7px 0 7px;
+	-webkit-transform: rotate(4deg); 
+	-moz-transform: rotate(4deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=4);
+}
+
+#rating {
+	margin-top:20px;
+	width:549px;
+	background:url('../images/arrow.png') no-repeat 72px 20px;
+}
+
+#rating .skip {
+	margin:13px 23px 0 0;
+	float:left;
+}
+
+#star {
+	cursor: pointer;
+}
+
+.ratings-star {
+  width: 48px;
+  height: 46px;
+  background:url('../images/star_grey.png') no-repeat;
+  position: relative;
+  float: left;
+  margin-right: 40px;
+}
+
+.ratings-full {
+  background-image: url('../images/star.png');
+}
+
+.profile {
+	font-size:1.2em;
+	padding:15px 0;
+	width:610px;
+	border-bottom:1px solid #ddd;
+}
+
+.profile p {
+	float:left;
+	margin-top:35px;
+}
+
+.profile p span {
+	color:#a7a7a7;
+}
+
+.profile img {
+	float:left;
+	margin-right:20px;
+	width:100px;
+}
+
+.profile strong {
+	font-weight:700;
+}
+
+.profile .upper {
+	text-transform: uppercase;
+}
+
+.profile .result {
+	padding-top:10px;
+	color:#fff;
+	margin-right:20px;
+	float:left;
+	box-shadow:0 0 5px #ccc;
+	-webkit-box-shadow:0 0 5px #ccc;
+	-moz-box-shadow:0 0 5px #ccc;
+	width:80px;
+	height:90px;
+	text-align:center;
+}
+
+.profile .result span {
+	font-size:4em;
+}
+
+.super {background:#93d453;text-shadow:0 -1px 0 #84b751;}
+.good {background:#b7d453;text-shadow:0 -1px 0 #819a2b;}
+.average {background:#d88242;text-shadow:0 -1px 0 #9e5722;}
+.poor {background:#d46553;text-shadow:0 -1px 0 #9c3f30;}
+
+#footer {
+	margin-top:40px;
+	border-bottom:1px solid #ddd;
+}
